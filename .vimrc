@@ -80,6 +80,9 @@ if dein#load_state('/Users/kyoruni/.cache/dein')
   " Add or remove your plugins here like this:
   "call dein#add('Shougo/neosnippet.vim')
   "call dein#add('Shougo/neosnippet-snippets')
+  call dein#add('mattn/emmet-vim')
+  call dein#add('cocopon/iceberg.vim')
+
 
   " Required:
   call dein#end()
@@ -95,7 +98,4 @@ if dein#check_install()
   call dein#install()
 endif
 
-"----------------------------
-"-- プラグイン             --
-"----------------------------
-call dein#add('mattn/emmet-vim')
+colorscheme iceberg
