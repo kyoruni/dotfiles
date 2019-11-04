@@ -82,6 +82,7 @@ if dein#load_state('/Users/kyoruni/.cache/dein')
   "call dein#add('Shougo/neosnippet-snippets')
   call dein#add('mattn/emmet-vim')
   call dein#add('cocopon/iceberg.vim')
+  call dein#add('sonjapeterson/1989.vim')
 
 
   " Required:
@@ -98,4 +99,4 @@ if dein#check_install()
   call dein#install()
 endif
 
-colorscheme iceberg
+colorscheme 1989
