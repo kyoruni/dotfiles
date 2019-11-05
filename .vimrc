@@ -80,9 +80,10 @@ if dein#load_state('/Users/kyoruni/.cache/dein')
   " Add or remove your plugins here like this:
   "call dein#add('Shougo/neosnippet.vim')
   "call dein#add('Shougo/neosnippet-snippets')
-  call dein#add('mattn/emmet-vim')
-  call dein#add('cocopon/iceberg.vim')
-  call dein#add('sonjapeterson/1989.vim')
+  call dein#add('mattn/emmet-vim')        "emmet
+  call dein#add('cocopon/iceberg.vim')    "color scheme
+  call dein#add('sonjapeterson/1989.vim') "color scheme
+  call dein#add('scrooloose/nerdtree')    "file tree
 
 
   " Required:
