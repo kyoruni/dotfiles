@@ -84,6 +84,7 @@ if dein#load_state('/Users/kyoruni/.cache/dein')
   call dein#add('cocopon/iceberg.vim')    "color scheme
   call dein#add('sonjapeterson/1989.vim') "color scheme
   call dein#add('scrooloose/nerdtree')    "file tree
+  call dein#add('tomtom/tcomment_vim')    "comment
 
 
   " Required:
